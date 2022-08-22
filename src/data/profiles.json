@@ -1,0 +1,233 @@
+{
+  "celerlogica": {
+    "name": "CelerLogica",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://celerlogica.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/celerlogica"
+      }
+    ]
+  },
+  "omari-jazz": {
+    "name": "Omari Jazz",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://omarijazz.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/omarijazz"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/omarijazz"
+      }
+    ]
+  },
+  "chucknessa": {
+    "name": "CHUCKNESSA",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://chucknessa.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/chucknessa"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/chucknessa"
+      }
+    ]
+  },
+  "olarian": {
+    "name": "Olarian",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/olarian"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/olarian"
+      }
+    ]
+  },
+  "kai": {
+    "name": ".kai",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/kingofpalmtrees"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/kingofpalmtrees"
+      }
+    ]
+  },
+  "buli": {
+    "name": "Buli",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://bulifromspace.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/bulifromspace"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/bulifromspace"
+      }
+    ]
+  },
+  "ihaveneighbors": {
+    "name": "ihaveneighbors",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/ihaveneighbors"
+      }
+    ]
+  },
+  "scape": {
+    "name": "Scape",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://scapesounds.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/scapesounds"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/scape.sounds"
+      }
+    ]
+  },
+  "woot-noot": {
+    "name": "Woot Noot",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://wootnoot.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/wootnoot"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/wootnooot"
+      }
+    ]
+  },
+  "a-luxury": {
+    "name": "A-LUXURY",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://a-luxury.bandcamp.com"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/antwaaan"
+      }
+    ]
+  },
+  "devonwho": {
+    "name": "Devonwho",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://devonwho.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/devonwho"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/devonwho"
+      }
+    ]
+  },
+  "fizzy": {
+    "name": "fizzy",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://fizzysan.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/fizzysan"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/fza.png/"
+      }
+    ]
+  },
+  "jon-vuri": {
+    "name": "jon vuri",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://jonvuri.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/jonvuri"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/jonvuri/"
+      }
+    ]
+  },
+  "kifferei": {
+    "name": "kifferei",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://kifferei.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/kifferei"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/kifferei/"
+      }
+    ]
+  },
+  "letjoux": {
+    "name": "letjoux",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://letjoux.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/letjoux"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/letjoux/"
+      }
+    ]
+  }
+}

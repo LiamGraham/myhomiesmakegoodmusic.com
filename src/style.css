@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400,700&family=Open+Sans:wght@400;600&display=swap');
 
 * { 
   margin: 0;
@@ -23,28 +23,57 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 main {
+  padding: 10%;
+  height: 100%;
+  font-size: 7em;
+}
+
+.profile {
   display: flex;
   flex-flow: column;
+  gap: 1em;
 }
 
-h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 4em;
+.profile > h1 {
+  font-weight: 400;
+  font-size: 1em;
 }
 
-.bio {
-  font-size: 2em;
+.profile-links {
+  list-style: none;
+  font-size: 0.66em;
+}
+
+.profile-name {
+  color: blue;
+}
+
+.profile-selector {
+  height: 100%;
+}
+
+.name-list {
+  overflow-y: scroll;
+  height: 600px; 
+  scrollbar-width: none;  /* Firefox */
+  scroll-snap-type: y mandatory;
+}
+
+.name-list::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.selector-item {
+  scroll-snap-align: start;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-  font-weight: 600;
 }
 
 a:hover {

@@ -1,7 +1,15 @@
+import { getRandomId, profileExists } from './data/profiles.js';
+import Profile from './components/Profile.js';
+import ProfileSelector from './components/ProfileSelector.js';
+
 export function App() {
+  // const path = window.location.pathname.substring(1).toLowerCase();
+  // let id = profileExists(path) ? path : getRandomId();
+
   return (
     <main>
-      <h1>______ makes good music.</h1>
+      {/* <Profile id={id}/> */}
+      <ProfileSelector/>
     </main>
   );
 }
