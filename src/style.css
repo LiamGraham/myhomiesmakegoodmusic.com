@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+
+  main {
+    top: 50% !important;
+    width: 70% !important;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.bio {
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+
+a:hover {
+  color: blue;
+}

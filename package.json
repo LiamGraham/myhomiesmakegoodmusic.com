@@ -1,0 +1,30 @@
+{
+  "name": "myhomiesmakegoodmusic.com",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "npx parcel build src/index.html",
+    "start": "npx parcel src/index.html",
+    "deploy": "npx gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamGraham/liamgraham.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiamGraham/liamgraham.github.io/issues"
+  },
+  "homepage": "https://liamgraham.github.io/liamgraham.github.io",
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
