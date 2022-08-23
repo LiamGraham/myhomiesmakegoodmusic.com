@@ -1,7 +1,6 @@
 {
   "celerlogica": {
     "name": "CelerLogica",
-    "bio": "",
     "links": [
       {
         "name": "Bandcamp",
@@ -49,6 +48,24 @@
       }
     ]
   },
+  "swarvy": {
+    "name": "Swarvy",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://swarvy.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/swarvy"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/swarvy"
+      }
+    ]
+  },
   "olarian": {
     "name": "Olarian",
     "bio": "",
@@ -92,6 +109,42 @@
       {
         "name": "Instagram",
         "url": "https://instagram.com/bulifromspace"
+      }
+    ]
+  },
+  "104-rog": {
+    "name": "10.4 ROG",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://104rog.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/104rog"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/104rog"
+      }
+    ]
+  },
+  "silentjay": {
+    "name": "SILENTJAY",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://napkingcole.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/silentjay"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/nap.king.cole"
       }
     ]
   },
@@ -244,5 +297,255 @@
         "url": "https://instagram.com/letjoux/"
       }
     ]
-  }
+  },
+  "myself": {
+    "name": "myself",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://mmmyself.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/m_y_s_e_l_f"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/mmmmmmmmmmyself/"
+      }
+    ]
+  },
+  "broken-transient": {
+    "name": "Broken Transient",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://brokentransient.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/brokentransient"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/brokentransient/"
+      }
+    ]
+  },
+  "finem": {
+    "name": "Finem",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://finem.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/finem"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/fynnmichlin/"
+      }
+    ]
+  },
+  "ricky": {
+    "name": "Ricky",
+    "bio": "",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/user-33163533"
+      }
+    ]
+  },
+  "jay-vinyl": {
+    "name": "Finem",
+    "bio": "",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/jayvinyl"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/emptyphonebooth/"
+      }
+    ]
+  },
+  "alexander-king": {
+    "name": "Alexander King",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://kingnik.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/alex-king-514821008"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/gnikxela"
+      }
+    ]
+  },
+  "toby-schay": {
+    "name": "Toby Schay",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://tobyschay.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/tobyschay"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/tobyschay"
+      }
+    ]
+  },
+  "subnet": {
+    "name": "SUBNET",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://nambokurecords.bandcamp.com/album/out-the-tape"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/subnet-beats"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/blackboxlying"
+      }
+    ]
+  },
+  "toonorth": {
+    "name": "Toonorth",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://toonorth.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/countbazzy-2"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/toonorth_"
+      }
+    ]
+  },
+  "vooo": {
+    "name": "Vooo",
+    "bio": "",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://vooomusic.com"
+      },
+      {
+        "name": "Bandcamp",
+        "url": "https://vooo.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/vooomusic"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/vooo.music"
+      }
+    ]
+  },
+  "ashtrejinkins": {
+    "name": "AshTreJinkins",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://ashtrejinkins.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/thinkinjinkins"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/_ashtrejinkins"
+      }
+    ]
+  },
+  "antoje": {
+    "name": "aNTOJE",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://antoje.bandcamp.com"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/tttuuujjj911117"
+      }
+    ]
+  },
+  "shri": {
+    "name": "Shri!",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://shri.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/thatguyshri"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/thisguyshri"
+      }
+    ]
+  },
+  "ideism": {
+    "name": "ideism",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://ideism.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/shri"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/ideism_"
+      }
+    ]
+  },
+  "sjs": {
+    "name": "sjs",
+    "bio": "",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/user-951731753"
+      },
+    ]
+  },
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * { 
   margin: 0;
@@ -39,9 +39,9 @@ html, body {
 }
 
 body {
-  font-family: 'Robot', Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 64px;
-  background-color: rgb(244, 244, 244);
+  background-color: rgb(245, 243, 228);
 }
 
 main {
@@ -67,7 +67,6 @@ h1 {
 
 .profile-links {
   list-style: none;
-  font-size: 1em;
 }
 
 .profile-name {
@@ -80,6 +79,7 @@ h1 {
   flex-wrap: wrap;
   gap: 0 0.25em;
   align-self: flex-end;
+  font-size: 0.8em;
 }
 
 .not-found {
