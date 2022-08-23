@@ -1,5 +1,7 @@
 import profiles from './profiles.json';
 
+const MY_ID = 'theyalright';
+
 /**
  * Returns profile data corresponding to the given ID if the ID exits, otherwise returns null;
  * 
@@ -43,6 +45,20 @@ export function getIds() {
   return Object.keys(profiles);
 }
 
+/**
+ * Returns all profiles.
+ * 
+ * @returns {array}
+ */
 export function getProfiles() {
   return profiles;
+}
+
+/**
+ * Returns true if given ID is my own (i.e. 'theyalright').
+ * 
+ * @param {*} id 
+ */
+export function isMe(id) {
+  return id === MY_ID;
 }

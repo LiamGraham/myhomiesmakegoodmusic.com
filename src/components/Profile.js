@@ -1,4 +1,4 @@
-import { getProfile } from '../data/profiles.js';
+import { getProfile, isMe } from '../data/profiles.js';
 import ProfileLinks from './ProfileLinks.js';
 
 export default function Profile(props) {
@@ -8,7 +8,7 @@ export default function Profile(props) {
   return (
     <div className='profile'>
       <h1>
-        <span className='profile-name'>{profile.name}</span> makes good music.
+        <span className='profile-name'>{profile.name}</span> {isMe(id) ? 'made this website' : 'makes good music'}.
       </h1>
 
       <p className='profile-bio'>

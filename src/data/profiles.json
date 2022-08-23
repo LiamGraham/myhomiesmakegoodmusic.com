@@ -607,5 +607,23 @@
         "url": "https://instagram.com/e_sobolik"
       }
     ]
+  },
+  "theyalright": {
+    "name": "Theyalright",
+    "bio": "",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://theyalright.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/theyalright"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/theyalright/"
+      }
+    ]
   }
 }
