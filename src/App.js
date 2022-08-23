@@ -1,15 +1,35 @@
-import { getRandomId, profileExists } from './data/profiles.js';
+import { getIds, getRandomId, profileExists } from './data/profiles.js';
+import ProfileNav from './components/ProfileNav.js';
 import Profile from './components/Profile.js';
-import ProfileSelector from './components/ProfileSelector.js';
+import NotFound from './components/NotFound.js';
+import { Routes, Route } from "react-router-dom";
 
-export function App() {
-  // const path = window.location.pathname.substring(1).toLowerCase();
-  // let id = profileExists(path) ? path : getRandomId();
+export default function App() {
+  const ids = getIds();
+  const routes = ids.map((id) => {
+    return (
+      <Route 
+        path={id}
+        key={id}
+        element={<Profile id={id}/>}
+      />
+    )
+  });
 
   return (
     <main>
-      {/* <Profile id={id}/> */}
-      <ProfileSelector/>
+      <ProfileNav ids={ids}/>
+      <Routes>
+        {routes}
+      <Route 
+        exact path="/"
+        element={<Profile id={getRandomId()}/>}
+      />
+      <Route 
+        path="*"
+        element={<NotFound/>}
+      />
+      </Routes>
     </main>
   );
 }

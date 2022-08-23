@@ -1,74 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400,700&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap');
 
 * { 
   margin: 0;
   padding: 0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 399px) {
   body {
-    font-size: 12px;
+    font-size: 28px !important;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 899px) and (min-width: 400px) {
   body {
-    font-size: 10px;
+    font-size: 40px !important;
   }
+}
 
-  main {
-    top: 50% !important;
-    width: 70% !important;
+@media (max-width: 1499px) and (min-width: 900px) {
+  body {
+    font-size: 46px !important;
   }
+}
+
+@media (max-width: 1999px) and (min-width: 1500px) {
+  body {
+    font-size: 50px !important;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Robot', Helvetica, sans-serif;
+  font-size: 64px;
 }
 
 main {
-  padding: 10%;
+  padding: 5%;
   height: 100%;
-  font-size: 7em;
 }
 
 .profile {
   display: flex;
   flex-flow: column;
-  gap: 1em;
+  gap: 1.5em;
+  margin-top: 2em;
 }
 
-.profile > h1 {
+h1 {
   font-weight: 400;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 .profile-links {
   list-style: none;
-  font-size: 0.66em;
+  font-size: 1em;
 }
 
 .profile-name {
   color: blue;
 }
 
-.profile-selector {
-  height: 100%;
+.profile-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 0.25em;
+  align-self: flex-end;
 }
 
-.name-list {
-  overflow-y: scroll;
-  height: 600px; 
-  scrollbar-width: none;  /* Firefox */
-  scroll-snap-type: y mandatory;
+.not-found {
+  margin-top: 2em;
 }
 
-.name-list::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
-}
-
-.selector-item {
-  scroll-snap-align: start;
+.no-select {
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 a {

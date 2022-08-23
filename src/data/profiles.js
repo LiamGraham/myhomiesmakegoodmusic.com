@@ -7,7 +7,6 @@ import profiles from './profiles.json';
  * @returns {object | null}
  */
 export function getProfile(id) {
-  console.log(`Getting profile for '${id}'`);
   if (!profileExists(id)) {
     console.error(`Profile '${id}' does not exist`);
     return null

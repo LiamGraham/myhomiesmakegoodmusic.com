@@ -3,16 +3,19 @@ import ProfileLinks from './ProfileLinks.js';
 
 export default function Profile(props) {
   const {id} = props;
-  console.log(`Rendering Profile with id '${id}'`)
-  const data = getProfile(id)
+  const profile = getProfile(id)
 
   return (
     <div className='profile'>
       <h1>
-        <span className='profile-name'>{data.name}</span> makes good music.
+        <span className='profile-name'>{profile.name}</span> makes good music.
       </h1>
 
-      <ProfileLinks links={data.links}/>
+      <p className='profile-bio'>
+        {profile.bio}
+      </p>
+
+      <ProfileLinks links={profile.links}/>
     </div>
   )
 }
