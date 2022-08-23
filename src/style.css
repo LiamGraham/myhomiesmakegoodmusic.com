@@ -41,6 +41,7 @@ html, body {
 body {
   font-family: 'Robot', Helvetica, sans-serif;
   font-size: 64px;
+  background-color: rgb(244, 244, 244);
 }
 
 main {
