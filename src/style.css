@@ -23,13 +23,13 @@
 
 @media (max-width: 1499px) and (min-width: 900px) {
   body {
-    font-size: 46px !important;
+    font-size: 44px !important;
   }
 }
 
 @media (max-width: 1999px) and (min-width: 1500px) {
   body {
-    font-size: 50px !important;
+    font-size: 48px !important;
   }
 }
 
