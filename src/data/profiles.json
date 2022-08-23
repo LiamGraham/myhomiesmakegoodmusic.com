@@ -363,7 +363,7 @@
     ]
   },
   "jay-vinyl": {
-    "name": "Finem",
+    "name": "JAY VINYL",
     "bio": "",
     "links": [
       {
@@ -548,4 +548,64 @@
       },
     ]
   },
+  "reid": {
+    "name": "reid",
+    "bio": "",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://reid.cat"
+      },
+      {
+        "name": "Bandcamp",
+        "url": "https://reid.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/cosy"
+      }
+    ]
+  },
+  "anqu": {
+    "name": "anqu",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://anqu.bandcamp.com"
+      }
+    ]
+  },
+  "stillakid": {
+    "name": "StillAKid",
+    "bio": "",
+    "links": [
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/whileimstillakid"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/stillakid__"
+      }
+    ]
+  },
+  "sobolik": {
+    "name": "sobolik",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://allcentre.bandcamp.com/album/iris"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/tomsobolikmusic"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/e_sobolik"
+      }
+    ]
+  }
 }
