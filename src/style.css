@@ -56,6 +56,10 @@ h1 {
   font-size: 2em;
 }
 
+.profile h1 {
+  overflow-wrap: break-word;
+}
+
 .profile-links {
   list-style: none;
   font-size: 1em;
