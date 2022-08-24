@@ -1,5 +1,6 @@
 import { getProfile, isMe } from '../data/profiles.js';
 import ProfileLinks from './ProfileLinks.js';
+import React from 'react';
 
 export default function Profile(props) {
   const {id} = props;

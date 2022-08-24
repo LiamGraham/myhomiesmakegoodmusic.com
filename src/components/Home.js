@@ -1,4 +1,6 @@
-export default function Homes(props) {
+import React from 'react';
+
+export default function Homes() {
   return (
     <div className='profile'>
       <h1>
