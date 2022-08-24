@@ -545,7 +545,7 @@
       {
         "name": "SoundCloud",
         "url": "https://soundcloud.com/user-951731753"
-      },
+      }
     ]
   },
   "reid": {
@@ -563,16 +563,6 @@
       {
         "name": "SoundCloud",
         "url": "https://soundcloud.com/cosy"
-      }
-    ]
-  },
-  "anqu": {
-    "name": "anqu",
-    "bio": "",
-    "links": [
-      {
-        "name": "Bandcamp",
-        "url": "https://anqu.bandcamp.com"
       }
     ]
   },
