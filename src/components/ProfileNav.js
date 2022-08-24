@@ -26,7 +26,7 @@ export default function ProfileNav(props) {
 
   return (
     <div className='profile-nav'>
-      <span className='no-select'>☻</span>
+      <Link to='/'>☻</Link>
       {items}
     </div>
   )

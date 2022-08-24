@@ -1,12 +1,13 @@
-import { getIds, getRandomId, profileExists } from './data/profiles.js';
+import { getIds } from './data/profiles.js';
 import ProfileNav from './components/ProfileNav.js';
 import Profile from './components/Profile.js';
+import Home from './components/Home.js';
 import NotFound from './components/NotFound.js';
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
   const ids = getIds();
-  const routes = ids.map((id) => {
+  const profileRoutes = ids.map((id) => {
     return (
       <Route 
         path={id}
@@ -20,10 +21,10 @@ export default function App() {
     <main>
       <ProfileNav ids={ids}/>
       <Routes>
-        {routes}
+      {profileRoutes}
       <Route 
         exact path="/"
-        element={<Profile id={getRandomId()}/>}
+        element={<Home/>}
       />
       <Route 
         path="*"
