@@ -598,6 +598,24 @@
       }
     ]
   },
+  "cymk": {
+    "name": "cy.mk",
+    "bio": "",
+    "links": [
+      {
+        "name": "Bandcamp",
+        "url": "https://cymk.bandcamp.com"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/imcymk"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/_cymk"
+      }
+    ]
+  },
   "theyalright": {
     "name": "Theyalright",
     "bio": "",
