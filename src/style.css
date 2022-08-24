@@ -98,6 +98,6 @@ a {
   color: inherit;
 }
 
-a:hover {
+a:hover, .active {
   color: blue;
 }
