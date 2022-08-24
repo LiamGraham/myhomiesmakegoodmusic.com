@@ -1,13 +1,10 @@
-import { getIds, getProfile } from '../data/profiles.js';
+import { getProfile } from '../data/profiles.js';
 import { Link } from "react-router-dom";
 import { Fragment } from 'react';
 
-function handleScroll(event) {
-  console.log(event)
-}
-
 export default function ProfileNav(props) {
   const {ids} = props;
+  
   const items = ids.map((id, index) => {
     const profile = getProfile(id);
     return (

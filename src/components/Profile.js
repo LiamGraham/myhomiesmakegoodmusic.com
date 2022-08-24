@@ -8,7 +8,7 @@ export default function Profile(props) {
   return (
     <div className='profile'>
       <h1>
-        <span className='profile-name'>{profile.name}</span> {isMe(id) ? 'made this website' : 'makes good music'}.
+        <span className='blue'>{profile.name}</span> {isMe(id) ? 'made this website' : 'makes good music'}.
       </h1>
 
       <p className='profile-bio'>
