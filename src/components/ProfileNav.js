@@ -7,10 +7,12 @@ const toPath = (id) => {
   return '/' + id;
 }
 
+const HOME_PATH = '/'
 const IDS = getIds();
 const DEFAULT_ACTIVE = Object.fromEntries(IDS.map((id) => {
   return [toPath(id), false];
 }));
+DEFAULT_ACTIVE[HOME_PATH] = false;
 
 export default function ProfileNav() {
   const renderNavItem = (to, text) => {
@@ -23,7 +25,7 @@ export default function ProfileNav() {
 
   let location = useLocation();
   const [active, setActive] = useState(DEFAULT_ACTIVE);
-  const items = IDS.map((id, index) => {
+  const navItems = IDS.map((id, index) => {
     const profile = getProfile(id);
     return (
       <Fragment key={id}>
@@ -45,7 +47,7 @@ export default function ProfileNav() {
   return (
     <div className='profile-nav'>
       {renderNavItem('/', '☻')}
-      {items}
+      {navItems}
     </div>
   )
 }
