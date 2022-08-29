@@ -3,7 +3,7 @@ export default function ProfileLinks(props) {
   const listItems = links.map((link) => {
     return (
       <li key={link.name}>
-        <a href={link.url}>
+        <a href={link.url} target='_blank'>
           {link.name}
         </a>
       </li>
