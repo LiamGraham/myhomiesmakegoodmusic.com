@@ -616,6 +616,24 @@
       }
     ]
   },
+  "kwame": {
+    "name": "Kwamé",
+    "bio": "",
+    "links": [
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com/artist/1KIS0P3Qlw8evjLOQvxcAi?si=Ou5srKwFT8-S8sqz7vW2jw&nd=1"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/kwame12345"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/kwameskingdom_"
+      }
+    ]
+  },
   "theyalright": {
     "name": "Theyalright",
     "bio": "",
