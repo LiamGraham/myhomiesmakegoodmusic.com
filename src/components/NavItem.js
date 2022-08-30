@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from 'react';
 
-export default function ProfileNavItem(props) {
+export default function NavItem(props) {
   const {to, isActive} = props;
 
   return (

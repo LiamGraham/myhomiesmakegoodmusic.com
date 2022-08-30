@@ -1,7 +1,7 @@
 import { getIds, getProfile } from '../data/profiles.js';
 import { useLocation, useMatch } from "react-router-dom";
 import React, { Fragment, useEffect, useState } from 'react';
-import ProfileNavItem from './ProfileNavItem.js'
+import NavItem from './NavItem.js'
 
 const toPath = (id) => {
   return '/' + id;
@@ -14,12 +14,12 @@ const DEFAULT_ACTIVE = Object.fromEntries(IDS.map((id) => {
 }));
 DEFAULT_ACTIVE[HOME_PATH] = false;
 
-export default function ProfileNav() {
+export default function Nav() {
   const renderNavItem = (to, text) => {
     return (
-      <ProfileNavItem to={to} isActive={active[to]}>
+      <NavItem to={to} isActive={active[to]}>
         {text}
-      </ProfileNavItem>
+      </NavItem>
     )
   }
 
@@ -41,7 +41,13 @@ export default function ProfileNav() {
   })
 
   useEffect(() => {
-    setActive({...DEFAULT_ACTIVE, [location.pathname]: true})
+    const path = location.pathname;
+    if (!Object.hasOwn(active, path)) {
+      setActive(DEFAULT_ACTIVE);
+    } else {
+      setActive({...DEFAULT_ACTIVE, [location.pathname]: true})
+    }
+
   }, [location]);
 
   return (

@@ -1,5 +1,5 @@
 import { getIds } from './data/profiles.js';
-import ProfileNav from './components/ProfileNav.js';
+import Nav from './components/Nav.js';
 import Profile from './components/Profile.js';
 import Home from './components/Home.js';
 import NotFound from './components/NotFound.js';
@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <main>
-      <ProfileNav ids={ids}/>
+      <Nav ids={ids}/>
       <Routes>
       {profileRoutes}
       <Route 
