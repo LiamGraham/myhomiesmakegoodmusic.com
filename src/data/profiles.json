@@ -634,6 +634,24 @@
       }
     ]
   },
+  "thoto_leing": {
+    "name": "Thoto_Leing",
+    "bio": "",
+    "links": [
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com/artist/5a4nrJ6eEVHg5CDeTbPwlm?si=CYo2_78kT_-Qvh4rxEAq2g"
+      },
+      {
+        "name": "SoundCloud",
+        "url": "https://soundcloud.com/th0to"
+      },
+      {
+        "name": "BandCamp",
+        "url": "https://thirstycityrecords.bandcamp.com/album/thoto-leing"
+      }
+    ]
+  },
   "theyalright": {
     "name": "Theyalright",
     "bio": "",
