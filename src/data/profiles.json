@@ -656,6 +656,24 @@
       }
     ]
   },
+  "bry-zen": {
+    "name": "Bry.Zen",
+    "bio": "",
+    "links": [
+      {
+        "name": "Spotify",
+        "url": "https://open.spotify.com/artist/7M1ZrDbXTmd8soHh0ziIoR?si=oJGqte8XRPCoIH2kq9oaaQ"
+      },
+      {
+        "name": "Website",
+        "url": "https://www.bryzen.net/"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/bry.z3n"
+      }
+    ]
+  },
   "theyalright": {
     "name": "Theyalright",
     "bio": "",
